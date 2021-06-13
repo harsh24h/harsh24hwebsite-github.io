@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web site</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+
+        }
+        body{
+            font-family: 'Hachi Maru Pop', cursive;
+        }
+       
+
+
+        .top {
+            background-color: black;
+            height: 30px;
+
+        }
+
+        .logo {
+
+            background-image: url(img/glitch.gif);
+            background-size: cover;
+            float: right;
+            display: flex;
+            /* border: tomato solid 2px; */
+            width: 100px;
+            height: 90px;
+        }
+
+        .titel {
+            display: flex;
+            float: right ;
+            margin-top: 28px;
+    margin-right: 12px;
+        }
+
+        a {
+
+            text-decoration: none;
+            margin-top: 50px;
+            margin-left: 20px;
+            margin: 1rem;
+            font-size: 15px;
+        }
+
+
+        .menu {
+            display: flex;
+            margin-left: 23px;
+            margin-top: 30px;
+        }
+
+        .poster {
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            margin-top: 50px;
+        }
+
+        .box {
+            
+            background-image: url(img/battelfilde.jpg);
+            background-size: cover;
+            height: 450px;
+            width: 1240px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 7px;
+        }
+
+        button {
+            color: black;
+            border-radius: 10px;
+            border: white solid 2px;
+            background-color: rgba(250, 245, 250, 0.308);
+            margin-top: 23rem;
+            margin-left: -7rem;
+            width: 200px;
+            height: 35px;
+        }
+
+        button:hover {
+            color: white;
+            background-color: rgba(0, 0, 0, 0.034);
+        }
+
+
+        .list {
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+
+        }
+
+        .fgames {
+            display: flex;
+
+            margin-top: 30px;
+
+        }
+
+        .listgames1 {
+            background-image: url(img/coc.jpg);
+            background-size: cover;
+            background-position: center;
+
+            margin: 11px;
+            width: 291px;
+            height: 200px;
+            box-shadow: black 15px 14px 25px -5px;
+        }
+
+        .listgames1:hover {
+            transition: all 0.3s ease-in-out;
+            transform: scale(1.1);
+        }
+
+        .listgames2 {
+            background-image: url(img/slice.gif);
+            background-size: cover;
+            background-position: center;
+            box-shadow: black 15px 14px 25px -5px;
+
+            margin: 11px;
+            width: 291px;
+            height: 200px;
+        }
+
+        .listgames2:hover {
+            transition: all 0.3s ease-in-out;
+            transform: scale(1.1);
+        }
+
+        .listgames3 {
+            background-image: url(img/gta5.jpg);
+            background-size: cover;
+            background-position: center;
+            box-shadow: black 15px 14px 25px -5px;
+
+            margin: 11px;
+            width: 291px;
+            height: 200px;
+        }
+
+        .listgames3:hover {
+            transition: all 0.3s ease-in-out;
+            transform: scale(1.1);
+        }
+
+        .listgames4 {
+            background-image: url(img/contra.gif);
+            background-size: cover;
+            background-position: center;
+            box-shadow: black 15px 14px 25px -5px;
+
+            margin: 11px;
+            width: 291px;
+            height: 200px;
+        }
+
+        .listgames4:hover {
+            transition: all 0.3s ease-in-out;
+            transform: scale(1.1);
+        }
+        .listgames5 {
+            background-image: url(img/batman.gif);
+            background-size: cover;
+            background-position: center;
+            box-shadow: black 15px 14px 25px -5px;
+
+            margin: 11px;
+            width: 291px;
+            height: 200px;
+        }
+
+        .listgames5:hover {
+            transition: all 0.3s ease-in-out;
+            transform: scale(1.1);
+        }
+        .listgames6 {
+            background-image: url(img/PUBG-mobile.jpg);
+            background-size: cover;
+            background-position: center;
+            box-shadow: black 15px 14px 25px -5px;
+
+            margin: 11px;
+            width: 291px;
+            height: 200px;
+        }
+
+        .listgames6:hover {
+            transition: all 0.3s ease-in-out;
+            transform: scale(1.1);
+        }.listgames7 {
+            background-image: url(img/fly.gif);
+            background-size: cover;
+            background-position: center;
+            box-shadow: black 15px 14px 25px -5px;
+
+            margin: 11px;
+            width: 291px;
+            height: 200px;
+        }
+
+        .listgames7:hover {
+            transition: all 0.3s ease-in-out;
+            transform: scale(1.1);
+        }.listgames8 {
+            background-image: url(img/car.jpg);
+            background-size: cover;
+            background-position: center;
+            box-shadow: black 15px 14px 25px -5px;
+
+            margin: 11px;
+            width: 291px;
+            height: 200px;
+        }
+
+        .listgames8:hover {
+            transition: all 0.3s ease-in-out;
+            transform: scale(1.1);
+        }
+
+
+
+        .update {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box2{
+            background-image: url(img/poster\ \(1\).gif);
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            width: 1240px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 7px;
+            border: black solid 2px;
+        }
+
+        .footer {
+            display: flex;
+            margin-top: 4px;
+            background-color: black;
+            height: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="top"> this is top</div>
+    
+
+    <div class="logo">logo</div>
+    <div class="titel"><h1>MY WEB SITE TITEL</h1></div>
+
+
+
+    <div class="menu">
+        <nav>
+            <a href="#">HOME</a>
+            <a href="35.1 about us.html">ABOUT US</a>
+            <a href="35.2 contact us.html">CONTACT US</a>
+            <a href="35.3 products.html">PRODUCTS</a>
+        </nav>
+    </div>
+    <div class="poster">
+        <div class="box"> in am background
+            <button>CHECK OUT THIS </button>
+        </div>
+    </div>
+    <div class="list">
+        <h1>FEATURE GAMES</h1>
+    </div>
+    <div class="fgames">
+        <div class="listgames1">i am first</div>
+        <div class="listgames2">i am second</div>
+        <div class="listgames3">i am third</div>
+        <div class="listgames4">i am forth</div>
+    </div>
+    <div class="fgames">
+        <div class="listgames5">i am first</div>
+        <div class="listgames6">i am second</div>
+        <div class="listgames7">i am third</div>
+        <div class="listgames8">i am forth</div>
+    </div>
+    <div class="list">
+        <h1>UPDATE</h1>
+    </div>
+    <div class="update">
+        <a href="">games</a>
+        <a href="">news</a>
+        <a href="">recent comment</a>
+        <a href="">featured</a>
+    </div>
+
+    <div class="poster">
+        <div class="box2"> in am footerbackground</div>
+    </div>
+    <div class="footer"> this is footer</div>
+
+
+</body>
+
+</html>
